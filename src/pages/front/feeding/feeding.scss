@@ -1,0 +1,200 @@
+.buffer-manage{
+  overflow:hidden;
+  .title {
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #2CAF64;
+  }
+  .router-box{
+    a{
+      display: inline-block;
+      width: 100px;
+      height: 40px;
+      border: 1px solid #e2e2e2;
+      text-align: center;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+    .routerCheck{
+      background: green;
+      color: #ffffff;
+    }
+  }
+  .top,.main{
+    overflow:hidden;
+    border:1px solid rgba(228, 228, 228, 1);
+    .header{
+      border-bottom:1px solid rgba(228, 228, 228, 1);
+      background-color:azure;
+      height:50px;
+      li{
+        height:48px;
+        margin-left:20px;
+      }
+      .left{
+        float:left;
+        line-height:48px;
+        span{
+          color:red;
+          padding-left:20px;
+        }
+      }
+      .right{
+        float:right;
+        .btn{
+          height:40px;
+          margin-top:5px;
+          margin-right:20px;
+        }
+      }
+    }
+  }
+  .top {
+    .header {
+      border-bottom: 1px solid rgba(228, 228, 228, 1);
+      background-color: azure;
+      height: 50px;
+      li {
+        height: 48px;
+        margin-left: 20px;
+      }
+      .left {
+        float: left;
+        line-height: 48px;
+      }
+      .right {
+        float: right;
+        .btn {
+          height: 40px;
+          margin-top: 5px;
+          margin-right: 20px;
+        }
+      }
+    }
+    .body{
+      overflow:hidden;
+      height:100%;
+      padding-top:20px;
+      padding-bottom: 20px;
+      li{
+        float:left;
+        height:40px;
+        margin-left:20px;
+        .label,.input,.check-box1,.check-box2{
+          float:left;
+        }
+        .label{
+          line-height:40px;
+          padding-right:10px;
+        }
+        .input{
+          width:100px;
+          height:36px;
+        }
+        .check-box1,.check-box2,.check-box3,.check-box4,.check-box5{
+          width:32px;
+          height:32px;
+          border:1px solid rgba(228, 228, 228, 1);
+          margin-top:4px;
+          float: left;
+          i{
+            font-size:32px;
+          }
+        }
+        .check-box5{
+          background-color: black;
+        }
+        .check-box4{
+          background-color: red;
+        }
+        .check-box3{
+          background-color: yellow;
+        }
+        .check-box2{
+          background-color:rgba(172, 255, 59, 1);
+        }
+        .check-box1{
+          background-color: cyan;
+        }
+      }
+    }
+  }
+  .main{
+    overflow:hidden;
+    margin-top:20px;
+    .table-box{
+      overflow:hidden;
+      margin:20px 20px;
+      border:1px solid rgba(228, 228, 228, 1);
+      .table-header{
+        height:40px;
+        background-color:#f2f2f2;
+      }
+      .table-header,.table-list{
+        border-bottom:1px solid rgba(228, 228, 228, 1);
+        height:40px;
+        width:100%;
+        display:table;
+        li{
+          height:39px;
+          line-height:39px;
+          border-right:1px solid rgba(228, 228, 228, 1);
+          float:left;
+          padding:0 16px;
+          display:table-cell;
+          vertical-align:middle;
+          width:20%;
+        }
+        li:last-child{
+          border-right:0px;
+        }
+      }
+      .table-list:last-child{
+        border:1px;
+      }
+    }
+  }
+}
+.f-l{
+  float: left;
+}
+.start-time,.end-time{
+  .el-date-editor.el-input{
+    width: 150px;
+  }
+}
+.el-checkbox-group{
+  width: 220px;
+  .el-checkbox__inner{
+    background: none;
+    border: none;
+  }
+}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+  background: none;
+  border: none;
+}
+.color-5{
+  background: black;
+}
+.color-4{
+  background: red;
+}
+.color-3{
+  background: yellow;
+}
+.color-2{
+  background: green;
+}
+.color-1{
+  background: cyan;
+}
+.dis-b{
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+.closeBtn:hover{
+  text-decoration: underline;
+}
